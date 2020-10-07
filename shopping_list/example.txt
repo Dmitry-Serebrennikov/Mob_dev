@@ -1,0 +1,21 @@
+Input:
+Bukov VAZ-2101 1
+Lukov computer_for_studying 1
+Argentov Concrete_Mathematics 2
+Bukov linguistric_book 3
+Lukov apple 5
+Lukov apple 8
+Argentov bun 13
+Lukov catosmiles 21
+
+Output:
+Argentov:
+Concrete_Mathematics 2
+bun 13
+Bukov:
+VAZ-2101 1
+linguistric_book 3
+Lukov:
+apple 13
+catosmiles 21
+computer_for_studying 1
