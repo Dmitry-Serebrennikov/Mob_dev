@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RandomMovie</string>
+    <string-array name="movies">
+        <item>Home Alone</item>
+        <item>2Fast2Furious</item>
+        <item>DArtagnan and Three Musketeers</item>
+        <item>Fantastic Four</item>
+        <item>The Fifth Element</item>
+        <item>The Sixth Sense</item>
+        <item>Seven Years in Tibet</item>
+        <item>8 Mile</item>
+        <item>The 9th Company</item>
+        <item>1 + 1</item>
+        <item>12 chairs</item>
+    </string-array>
+</resources>
