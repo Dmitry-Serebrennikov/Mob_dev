@@ -1,0 +1,100 @@
+{
+  "movies" : [
+    {
+     "title" : "Home Alone",
+      "release_date" : "November 10, 1990",
+      "running_time" : 103,
+      "genre" : "christmas comedy, family",
+      "director_by" : "Chris Columbus",
+      "description" : "Time, childhood, New Year. one of the most famous Christmas movies for family viewing. Filmed in 1990 by Chris Columbus, it is now considered a classic of world cinema. The film tells the story of a boy played by Macaulay Culkin, who was forgotten at home by his parents before Christmas, but he does not lose heart and organizes his own life - even protects his home from robbers."
+    },
+    {
+      "title" : "2Fast2Furious",
+      "release_date" : "June 6, 2003",
+      "running_time" : 108,
+      "genre" : "action, thriller, crime",
+      "director_by" : "John Singleton",
+      "description" : "Money, cars, 2 fast and furious. Former police officer Brian O'Conner with his partner Roman Pearce is going to transport a large amount of dirty money of the famous mobster Carter Verona. But in fact, this work is only a cover for Brian, who, together with secret agent Monica Fuentes, must catch a dodgy criminal."
+    },
+    {
+      "title" : "DArtagnan and Three Musketeers",
+      "release_date" : "December 24, 1978",
+      "running_time" : 220,
+      "genre" : "musical adventure comedy, cloak and sword film",
+      "director_by" : "Georgi Yungvald-Khilkevich",
+      "description" : "Swords, friendship and tysacha chertey. Four friends-Musketeers save the honor of the Queen of France, enter into single combat with the all-powerful cardinal Richelieu and the treacherous Milady, and most importantly - enjoy life."
+    },
+    {
+      "title" : "Fantastic Four",
+      "release_date" : "2005",
+      "running_time" : 106,
+      "genre" : "superhero movie, action",
+      "director_by" : "Tim Story",
+      "description" : "Four astronauts in deep space fell under the influence of unknown rays and each acquired their own separate superpowers. After returning to Earth, the four begins to actively interfere with the enemies of civilization, who are strenuously spoiling the life of all progressive humanity."
+    },
+    {
+      "title" : "The Fifth Element",
+      "release_date" : "7 May 1997",
+      "running_time" : 126,
+      "genre" : "action, adventure, fantasy",
+      "director_by" : "Luc Besson",
+      "description" : "Every five thousand years, the doors between dimensions open and the dark forces seek to disrupt the existing harmony. Every five thousand years, the universe needs a hero who can withstand this evil. XXIII century. New York taxi driver Corben Dallas must solve a global problem - the salvation of the entire human race."
+    },
+    {
+      "title" : "The Sixth Sense",
+      "release_date" : "August 2, 1999",
+      "running_time" : 107,
+      "genre" : "detective, fantasy, drama",
+      "director_by" : "M. Night Shyamalan",
+      "description" : "Child psychiatrist Malcolm Crowe is confronted with a strange case: nine-year-old Cole is visited by terrible visions - the ghosts of the dead. All these people were once killed, and now they unleash their oppressive fear and desperate anger on the baby.\n\nAs a doctor, Malcolm is powerless to help. But as a person, he tries to find the key to the terrible world of Cole, in which the breath of death blows, and terrible flowers of pain bloom."
+    },
+    {
+      "title" : "Seven Years in Tibet",
+      "release_date" : "October 8, 1997",
+      "running_time" : 136,
+      "genre" : "drama, adventure",
+      "director_by" : "Jean-Jacques Annaud",
+      "description" : "Heinrich Harrer, officer of the Reich, a man who had everything - success, beauty, fame. But he had little earthly glory. Leaving his pregnant wife at home, he sets out to conquer the most impregnable peak in the Himalayas. This feat should perpetuate his name.\n\nHowever, in front of him awaits not a successful ascent, but mortal danger, enemy captivity, long wanderings ... Finally he reaches the mysterious Tibetan city of Lhasa, where he will spend seven long years, and where the young Dalai Lama makes him his confidant. And here, in a country lying beyond the boundaries of civilization, he will have to go through events that will forever change his life ..."
+    },
+    {
+      "title" : "8 Mile",
+      "release_date" : "November 8, 2002",
+      "running_time" : 110,
+      "genre" : "drama",
+      "director_by" : "Curtis Hanson",
+      "description" : "Detroit, 1995. The city's brilliant and promising industrial policies are collapsing and causing chaos and confusion, resulting in one of the most serious white-colored conflicts in American history. People who lived peacefully nearby were on opposite sides of the barricades.\n\nThe 8 Mile Highway that separates Detroit from the suburbs becomes the dividing strip between blacks and whites. What is happening in the city is reflected in the music. In poor suburban neighborhoods where survival is the main goal, for many inhabitants, hip-hop becomes an emotional outlet, a means to help escape from the harsh everyday reality."
+    },
+    {
+      "title": "The 9th Company",
+      "release_date": "September 29, 2005",
+      "running_time": 130,
+      "genre": "action, drama, military, history",
+      "director_by": "Fedor Bondarchuk",
+      "description": "USSR, 1988-1989, a few months before the complete withdrawal of Soviet troops from Afghanistan. Seven conscripts, after several months of hellish training in training under the command of a merciless foreman, fall into the crucible of the Afghan campaign.\n\nA group of paratroopers, whose fighters are our heroes, receives a command assignment - to occupy the height and hold it until the column passes."
+    },
+    {
+      "title": "Tenet",
+      "release_date": "August 26, 2020",
+      "running_time": 150,
+      "genre": "fiction, action",
+      "director_by": "Christopher Nolan",
+      "description": "After the terrorist attack at the Kiev Opera House, a CIA agent teams up with British intelligence to confront a Russian oligarch who made his fortune in the arms trade. To do this, agents use time inversion - a technology of the future that allows time to go backwards."
+    },
+    {
+      "title" : "1 + 1",
+      "release_date" : "September 23, 2011",
+      "running_time" : 112,
+      "genre" : "drama, comedy, biography",
+      "director_by" : "Olivier Nakache and Eric Toledano",
+      "description" : "Suffering from an accident, the wealthy aristocrat Philip hires as his assistant the man who is least suited for the job - a young resident of the Drissa suburb who has just been released from prison. Despite the fact that Philip is confined to a wheelchair, Driss manages to bring the spirit of adventure into the measured life of an aristocrat."
+    },
+    {
+      "title" : "12 chairs",
+      "release_date" : "June 21, 1971",
+      "running_time" : 159,
+      "genre" : "comedy",
+      "director_by" : "Leonid Gaidai",
+      "description" : "During the revolution and the brief period of War Communism that followed, many hid their valuables as securely as possible. An ironic and funny performance in which a couple of adventurers Ippolit Matveyevich Vorobyaninov, once a nobleman and a secular lion, and the \"great strategist\" Ostap Bender hunt for chairs made by Master Gambs, one of which contains diamonds and pearls for a total of 150,000 gold rubles"
+    }
+  ]
+}
