@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backColor"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20sp"
+                android:layout_weight="1"
+                android:paddingLeft="20sp"
+                android:paddingTop="20sp"
+                android:text="Откуда"
+                android:textColor="#F4F3F3"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_weight="1"
+                android:paddingRight="20sp"
+                android:text="Куда"
+                android:textAlignment="viewEnd"
+                android:textColor="#F4F1F1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:layout_marginRight="30sp"
+
+
+                android:layout_marginBottom="30sp"
+                android:layout_weight="1"
+                android:background="#faf8f5"
+                android:backgroundTint="#FFFFFF"
+                android:entries="@array/cities"
+                android:padding="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="60dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+
+                app:srcCompat="@drawable/arrow2" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="30sp"
+
+                android:layout_marginBottom="30sp"
+                android:layout_weight="1"
+                android:background="#faf8f5"
+                android:entries="@array/cities1"
+                android:padding="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextDate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Дата вылета"
+
+                android:textColorHint="@color/white"
+                android:inputType="date"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/editTextDate3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:textColorHint="@color/white"
+                android:hint="Дата прилета"
+                android:inputType="date" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="Число пассажиров"
+            android:textAlignment="center"
+            android:textColor="#FFC107"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Взрослых"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextNumber3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/custom_edit"
+            android:ems="10"
+            android:ellipsize="start"
+            android:gravity="center_horizontal"
+            android:hint="Старше 12 лет"
+            android:inputType="number"
+            android:padding="10sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:text="Детей"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editTextNumber4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/custom_edit"
+            android:ems="10"
+            android:ellipsize="start"
+            android:gravity="center_horizontal"
+            android:hint="От 2 до 12 лет"
+            android:inputType="number"
+            android:padding="10sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:text="Младенцев"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editTextNumber5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/custom_edit"
+            android:ems="10"
+            android:ellipsize="start"
+            android:gravity="center_horizontal"
+            android:hint="до 2 лет, без места"
+            android:inputType="number"
+            android:padding="10sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#e69327"
+            android:insetLeft="20dp"
+            android:insetRight="20dp"
+            android:text="Найти билеты"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

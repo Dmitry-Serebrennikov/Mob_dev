@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".relativeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/backColor"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/editTextNumber3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView2"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custom_edit"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Старше 12 лет"
+            android:inputType="number"
+            android:padding="10sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editTextNumber4"
+            android:layout_marginBottom="10dp"
+            android:text="Детей"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/spinner"
+            android:layout_marginEnd="228dp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="5dp"
+            android:layout_toStartOf="@+id/textView6"
+            android:layout_weight="1"
+            android:paddingLeft="20sp"
+            android:paddingTop="20sp"
+            android:text="Откуда"
+            android:textColor="#F4F3F3"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/spinner2"
+            android:layout_alignEnd="@+id/spinner2"
+            android:layout_marginLeft="20sp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:paddingRight="20sp"
+            android:text="Куда"
+            android:textAlignment="viewEnd"
+            android:textColor="#F4F1F1"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editTextDate2"
+            android:layout_alignParentStart="true"
+
+
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+
+            android:layout_marginTop="30sp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toStartOf="@+id/spinner2"
+            android:layout_weight="1"
+            android:background="#faf8f5"
+            android:backgroundTint="#FFFFFF"
+            android:entries="@array/cities"
+            android:padding="15sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="43dp"
+            android:layout_above="@+id/textView"
+
+            android:layout_gravity="center"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="73dp"
+            android:layout_toStartOf="@+id/spinner2"
+            app:srcCompat="@drawable/arrow2" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editTextDate3"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="30sp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginBottom="25dp"
+            android:layout_weight="1"
+            android:background="#faf8f5"
+            android:entries="@array/cities1"
+            android:padding="15sp" />
+
+        <EditText
+            android:id="@+id/editTextDate2"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="15dp"
+
+            android:layout_marginEnd="29dp"
+            android:layout_marginRight="15dp"
+
+            android:layout_toStartOf="@+id/editTextDate3"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Дата вылета"
+            android:inputType="date"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/editTextDate3"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="20sp"
+
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Дата прилета"
+            android:inputType="date"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView4"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Число пассажиров"
+            android:textAlignment="center"
+            android:textColor="#FFC107"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editTextNumber3"
+            android:layout_marginBottom="10dp"
+            android:text="Взрослых"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextNumber4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editTextNumber5"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="61dp"
+            android:background="@drawable/custom_edit"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="От 2 до 12 лет"
+            android:inputType="number"
+            android:padding="10sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editTextNumber5"
+            android:layout_marginBottom="10dp"
+            android:text="Младенцев"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextNumber5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button5"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custom_edit"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="до 2 лет, без места"
+            android:inputType="number"
+            android:padding="10sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="64dp"
+            android:backgroundTint="#e69327"
+            android:insetLeft="20dp"
+            android:insetRight="20dp"
+            android:text="Найти билеты"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

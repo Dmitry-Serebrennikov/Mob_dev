@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FlightSearch</string>
+    <string-array name="cities">
+        <item>Rome</item>
+        <item>Istanbul</item>
+        <item>Moscow</item>
+        <item>Irkutsk</item>
+        <item>Tokyo</item>
+        <item>Houston</item>
+        <item>London</item>
+        <item>Canberra</item>
+        <item>Shanghai</item>
+        <item>New York</item>
+        <item>Ulan-Ude</item>
+    </string-array>
+    <string-array name="cities1">
+        <item>Irkutsk</item>
+        <item>Rome</item>
+        <item>Istanbul</item>
+        <item>Moscow</item>
+        <item>Tokyo</item>
+        <item>Houston</item>
+        <item>London</item>
+        <item>Canberra</item>
+        <item>Shanghai</item>
+        <item>New York</item>
+        <item>Ulan-Ude</item>
+    </string-array>
+</resources>
