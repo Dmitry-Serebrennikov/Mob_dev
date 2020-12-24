@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Azure Translator</string>
+    <string name="translate_to">Перевести на</string>
+    <string name="button">Перевести</string>
+</resources>
